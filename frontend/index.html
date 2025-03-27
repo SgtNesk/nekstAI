@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Utente - Sistema nekstAI</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Benvenuto nella Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#documenti">Documenti</a></li>
+                <li><a href="#nodi">Nodi Worker</a></li>
+                <li><a href="#dati">Dati</a></li>
+            </ul>
+        </nav>
+        <section id="documenti">
+            <h2>Gestione Documenti</h2>
+            <input type="file" id="uploadFile" multiple>
+            <button onclick="uploadDocuments()">Carica</button>
+            <ul id="documentList"></ul>
+        </section>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

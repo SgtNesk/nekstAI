@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7fa; /* Sfondo chiaro e moderno */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white; /* Container bianco */
+    padding: 20px;
+    border-radius: 8px; /* Bordi arrotondati */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #007bff; /* Blu per la navbar */
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #555;
+}
+
+input[type="file"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #28a745; /* Verde per il pulsante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Verde più scuro al passaggio del mouse */
+}
+
+#documentList {
+    list-style: none;
+    padding: 0;
+}
+
+#documentList li {
+    padding: 8px;
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    border-radius: 4px;
+}
